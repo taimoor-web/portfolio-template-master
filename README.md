@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   <img src="./src/images/Github-landing.jpg" alt="React Portfolio Theme by Mohammad Abubakar" />
 </p>
@@ -58,3 +59,7 @@ This project is open source and available under the MIT License.
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+=======
+# portfolio-template-master
+portfolio-template-master
+>>>>>>> 12c8af7fe411d55385797b86ef696db0cf88b52f
