@@ -20,7 +20,7 @@ import {
   Link,
   IconButton,
 } from '@chakra-ui/react';
-import { EmailIcon, CalendarIcon } from '@chakra-ui/icons';
+import { EmailIcon, CalendarIcon, PhoneIcon } from '@chakra-ui/icons';
 import { FaLinkedin, FaMapMarkerAlt } from 'react-icons/fa';
 import { SiUpwork, SiFiverr } from "react-icons/si";
 
@@ -95,7 +95,27 @@ export const Sidebar = () => {
                       <Text fontSize="xs">muhammadtaimoorahmad55@gmail.com</Text>
                     </Box>
                   </HStack>
-
+                  <HStack spacing={3} align="center">
+                    <Box
+                      width="20px"
+                      height="20px"
+                      borderRadius="full"
+                      bg={colorMode === "dark" ? "gray.700" : "white"}
+                      p={6}
+                      boxShadow="lg"
+                      display="flex"
+                      alignItems="center"
+                      justifyContent="center"
+                    >
+                      <Icon as={PhoneIcon} />
+                    </Box>
+                    <Box>
+                      <Text fontSize="sm" fontWeight="bold">
+                        phone Number
+                      </Text>
+                      <Text fontSize="xs">+92 3008068378</Text>
+                    </Box>
+                  </HStack>
                   <HStack spacing={3} align="center">
                     <Box
                       width="20px"
@@ -194,7 +214,27 @@ export const Sidebar = () => {
                   <Text fontSize="xs">muhammadtaimoorahmad55<br></br>@gmail.com</Text>
                 </Box>
               </HStack>
-
+              <HStack spacing={3} align="center">
+                    <Box
+                      width="20px"
+                      height="20px"
+                      borderRadius="full"
+                      bg={colorMode === "dark" ? "gray.700" : "white"}
+                      p={6}
+                      boxShadow="lg"
+                      display="flex"
+                      alignItems="center"
+                      justifyContent="center"
+                    >
+                      <Icon as={PhoneIcon} />
+                    </Box>
+                    <Box>
+                      <Text fontSize="sm" fontWeight="bold">
+                        phone Number
+                      </Text>
+                      <Text fontSize="xs">+92 3008068378</Text>
+                    </Box>
+                  </HStack>
               <HStack spacing={3} align="center">
                 <Box
                   width="20px"
