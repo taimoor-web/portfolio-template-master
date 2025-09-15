@@ -46,8 +46,8 @@ export const Sidebar = () => {
           justifyContent="center"
         >
           <Image
-            src={require("../../images/Avatar.png")}
-            alt="John Doe"
+            src={require("../../images/Avatar.jpeg")}
+            alt="Taimoor"
             borderRadius="full"
             boxSize="100px"
             objectFit="cover"
